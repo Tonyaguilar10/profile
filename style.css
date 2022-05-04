@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #242325;
+  font-size: 12px;
+  line-height: normal;
+  background-color: #B4B8C5;
+}
+
+img{
+  width: 100px;
+  border-radius: 50%;
+}
+h1{
+  color: #8D818C;
+  font-weight: 600;
+}
+h2{
+  color: #8D818C;
+}
+p{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+a{
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 15px;
+  color: #B4B8C5;
+}
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+.card{
+  background: #E9EBF8;                         /* White background */
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: #A5A299;
+}
+.list-inline i:hover {
+  color: black;
+  font-size: 40px;
+  transition: 0.5s;
+}
+.btn-grey{
+  background-color: #A5A299;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 0 220px;
+}
+.btn-grey:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  padding: 3% 3.5%;
+}
+.new-label:hover span{
+  display: none;
+}
+.new-label:hover::after{
+  content: 'In my Only fans';
+}
